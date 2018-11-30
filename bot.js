@@ -1,5 +1,5 @@
 ﻿const Discord = require('discord.js');
-const1 client = new Discord.Client();
+const client1 = new Discord.Client();
 
 client1.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);  
@@ -13,6 +13,8 @@ var channel = "517312143524364288";//ايدي الروم
     },305);
 })
 client1.login(process.env.TOKEN1);
+
+const client2 = new Discord.Client();
 
 client2.on('ready', async() => {
 var server = "498814210529034240"; // ايدي السررفر
