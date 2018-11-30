@@ -166,7 +166,7 @@ var channel = "517312143524364288";//ايدي الروم
 client16.login(process.env.TOKEN16);
 
 const client17 = new Discord.Client();
-client.on('ready', async() => {
+client17.on('ready', async() => {
 var server = "498814210529034240"; // ايدي السررفر
 var channel = "517312143524364288";//ايدي الروم
     setInterval(()=>{
