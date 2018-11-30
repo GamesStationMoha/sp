@@ -183,4 +183,710 @@ var channel = "517312143524364288";//ايدي الروم
 })
 client20.login(process.env.TOKEN20);
 
+//#SAY - CR
 
+//credits V
+
+client.on('message', message => {
+  if (message.content === 'cr') {
+    message.channel.send('#credits');
+  }
+}); 
+
+client1.on('message', message => {
+  if (message.content === 'cr') {
+    message.channel.send('#credits');
+  }
+}); 
+
+client2.on('message', message => {
+  if (message.content === 'cr') {
+    message.channel.send('#credits');
+  }
+}); 
+ 
+client3.on('message', message => {
+  if (message.content === 'cr') {
+    message.channel.send('#credits');
+  }
+}); 
+ 
+ 
+client4.on('message', message => {
+  if (message.content === 'cr') {
+    message.channel.send('#credits');
+  }
+}); 
+ 
+ client5.on('message',message => {
+  if (message.content === 'cr') {
+    message.channel.send('#credits');
+  }
+}); 
+ 
+ client6.on('message', message => {
+  if (message.content === 'cr') {
+    message.channel.send('#credits');
+  }
+}); 
+ 
+ client7.on('message', message => {
+  if (message.content === 'cr') {
+    message.channel.send('#credits');
+  }
+}); 
+ 
+ client8.on('message', message => {
+  if (message.content === 'cr') {
+    message.channel.send('#credits');
+  }
+}); 
+ 
+ client9.on('message', message => {
+  if (message.content === 'cr') {
+    message.channel.send('#credits');
+  }
+}); 
+ 
+ client10.on('message', message => {
+  if (message.content === 'cr') {
+    message.channel.send('#credits');
+  }
+}); 
+ 
+
+ client11.on('message', message => {
+  if (message.content === 'cr') {
+    message.channel.send('#credits');
+  }
+}); 
+
+ client12.on('message', message => {
+  if (message.content === 'cr') {
+    message.channel.send('#credits');
+  }
+}); 
+ 
+ client13.on('message', message => {
+  if (message.content === 'cr') {
+    message.channel.send('#credits');
+  }
+}); 
+ 
+ client14.on('message', message => {
+  if (message.content === 'cr') {
+    message.channel.send('#credits');
+  }
+}); 
+ 
+ client15.on('message', message => {
+  if (message.content === 'cr') {
+    message.channel.send('#credits');
+  }
+}); 
+ 
+ client16.on('message', message => {
+  if (message.content === 'cr') {
+    message.channel.send('#credits');
+  }
+}); 
+ 
+ client17.on('message', message => {
+  if (message.content === 'cr') {
+    message.channel.send('#credits');
+  }
+}); 
+ client18.on('message', message => {
+  if (message.content === 'cr') {
+    message.channel.send('#credits');
+  }
+}); 
+ 
+    client.on('message', message => {
+                var prefix = "0";
+const devs = ['312244272000663564'];
+if(!devs.includes(message.author.id)) return;
+
+  if (message.author.bot) return;
+  if (!message.content.startsWith(prefix)) return;
+
+  let command = message.content.split(" ")[0];
+  command = command.slice(prefix.length);
+
+  let args = message.content.split(" ").slice(1);
+
+  if (command == "say") {
+
+
+   message.channel.sendMessage(args.join("  "))
+   message.delete()
+  }
+ });
+
+    client1.on('message', message => {
+        var prefix = "1";
+const devs = ['312244272000663564'];
+if(!devs.includes(message.author.id)) return;
+
+  if (message.author.bot) return;
+  if (!message.content.startsWith(prefix)) return;
+
+  let command = message.content.split(" ")[0];
+  command = command.slice(prefix.length);
+
+  let args = message.content.split(" ").slice(1);
+
+  if (command == "say") {
+if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('?|**\`ADMINISTRATOR**');
+
+
+   message.channel.sendMessage(args.join("  "))
+   message.delete()
+  }
+ }); 
+ 
+    client2.on('message', message => {
+                var prefix = "2";
+const devs = ['312244272000663564'];
+if(!devs.includes(message.author.id)) return;
+
+  if (message.author.bot) return;
+  if (!message.content.startsWith(prefix)) return;
+
+  let command = message.content.split(" ")[0];
+  command = command.slice(prefix.length);
+
+  let args = message.content.split(" ").slice(1);
+
+  if (command == "say") {
+if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('?|**\`ADMINISTRATOR**');
+
+
+   message.channel.sendMessage(args.join("  "))
+   message.delete()
+  }
+ });
+ 
+ 
+    client3.on('message', message => {
+                 var prefix = "3";
+const devs = ['312244272000663564'];
+if(!devs.includes(message.author.id)) return;
+  if (message.author.bot) return;
+  if (!message.content.startsWith(prefix)) return;
+
+  let command = message.content.split(" ")[0];
+  command = command.slice(prefix.length);
+
+  let args = message.content.split(" ").slice(1);
+
+  if (command == "say") {
+if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('?|**\`ADMINISTRATOR**');
+
+
+   message.channel.sendMessage(args.join("  "))
+   message.delete()
+  }
+ });
+ 
+ 
+    client4.on('message', message => {
+         var prefix = "4";
+const devs = ['312244272000663564'];
+if(!devs.includes(message.author.id)) return;
+  if (message.author.bot) return;
+  if (!message.content.startsWith(prefix)) return;
+
+  let command = message.content.split(" ")[0];
+  command = command.slice(prefix.length);
+
+  let args = message.content.split(" ").slice(1);
+
+  if (command == "say") {
+if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('?|**\`ADMINISTRATOR**');
+
+
+   message.channel.sendMessage(args.join("  "))
+   message.delete()
+  }
+ });
+ 
+ 
+    client5.on('message', message => {
+                 var prefix = "5";
+const devs = ['312244272000663564'];
+if(!devs.includes(message.author.id)) return;
+  if (message.author.bot) return;
+  if (!message.content.startsWith(prefix)) return;
+
+  let command = message.content.split(" ")[0];
+  command = command.slice(prefix.length);
+
+  let args = message.content.split(" ").slice(1);
+
+  if (command == "say") {
+if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('?|**\`ADMINISTRATOR**');
+
+
+   message.channel.sendMessage(args.join("  "))
+   message.delete()
+  }
+ });
+ 
+ 
+    client6.on('message', message => {
+                 var prefix = "6";
+const devs = ['312244272000663564'];
+if(!devs.includes(message.author.id)) return;
+  if (message.author.bot) return;
+  if (!message.content.startsWith(prefix)) return;
+
+  let command = message.content.split(" ")[0];
+  command = command.slice(prefix.length);
+
+  let args = message.content.split(" ").slice(1);
+
+  if (command == "say") {
+if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('?|**\`ADMINISTRATOR**');
+
+
+   message.channel.sendMessage(args.join("  "))
+   message.delete()
+  }
+ });
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    client7.on('message', message => {
+                 var prefix = "7";
+const devs = ['312244272000663564'];
+if(!devs.includes(message.author.id)) return;
+  if (message.author.bot) return;
+  if (!message.content.startsWith(prefix)) return;
+
+  let command = message.content.split(" ")[0];
+  command = command.slice(prefix.length);
+
+  let args = message.content.split(" ").slice(1);
+
+  if (command == "say") {
+if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('?|**\`ADMINISTRATOR**');
+
+
+   message.channel.sendMessage(args.join("  "))
+   message.delete()
+  }
+ });
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    client8.on('message', message => {
+                 var prefix = "8";
+const devs = ['312244272000663564'];
+if(!devs.includes(message.author.id)) return;
+  if (message.author.bot) return;
+  if (!message.content.startsWith(prefix)) return;
+
+  let command = message.content.split(" ")[0];
+  command = command.slice(prefix.length);
+
+  let args = message.content.split(" ").slice(1);
+
+  if (command == "say") {
+if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('?|**\`ADMINISTRATOR**');
+
+
+   message.channel.sendMessage(args.join("  "))
+   message.delete()
+  }
+ });
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    client9.on('message', message => {
+                 var prefix = "9";
+const devs = ['312244272000663564'];
+if(!devs.includes(message.author.id)) return;
+  if (message.author.bot) return;
+  if (!message.content.startsWith(prefix)) return;
+
+  let command = message.content.split(" ")[0];
+  command = command.slice(prefix.length);
+
+  let args = message.content.split(" ").slice(1);
+
+  if (command == "say") {
+if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('?|**\`ADMINISTRATOR**');
+
+
+   message.channel.sendMessage(args.join("  "))
+   message.delete()
+  }
+ });
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    client10.on('message', message => {
+                 var prefix = "10";
+const devs = ['312244272000663564'];
+if(!devs.includes(message.author.id)) return;
+  if (message.author.bot) return;
+  if (!message.content.startsWith(prefix)) return;
+
+  let command = message.content.split(" ")[0];
+  command = command.slice(prefix.length);
+
+  let args = message.content.split(" ").slice(1);
+
+  if (command == "say") {
+if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('?|**\`ADMINISTRATOR**');
+
+
+   message.channel.sendMessage(args.join("  "))
+   message.delete()
+  }
+ });
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    client11.on('message', message => {
+                 var prefix = "11";
+const devs = ['312244272000663564'];
+if(!devs.includes(message.author.id)) return;
+  if (message.author.bot) return;
+  if (!message.content.startsWith(prefix)) return;
+
+  let command = message.content.split(" ")[0];
+  command = command.slice(prefix.length);
+
+  let args = message.content.split(" ").slice(1);
+
+  if (command == "say") {
+if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('?|**\`ADMINISTRATOR**');
+
+
+   message.channel.sendMessage(args.join("  "))
+   message.delete()
+  }
+ });
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    client12.on('message', message => {
+                 var prefix = "12";
+const devs = ['312244272000663564'];
+if(!devs.includes(message.author.id)) return;
+  if (message.author.bot) return;
+  if (!message.content.startsWith(prefix)) return;
+
+  let command = message.content.split(" ")[0];
+  command = command.slice(prefix.length);
+
+  let args = message.content.split(" ").slice(1);
+
+  if (command == "say") {
+if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('?|**\`ADMINISTRATOR**');
+
+
+   message.channel.sendMessage(args.join("  "))
+   message.delete()
+  }
+ });
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    client13.on('message', message => {
+                 var prefix = "13";
+const devs = ['312244272000663564'];
+if(!devs.includes(message.author.id)) return;
+  if (message.author.bot) return;
+  if (!message.content.startsWith(prefix)) return;
+
+  let command = message.content.split(" ")[0];
+  command = command.slice(prefix.length);
+
+  let args = message.content.split(" ").slice(1);
+
+  if (command == "say") {
+if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('?|**\`ADMINISTRATOR**');
+
+
+   message.channel.sendMessage(args.join("  "))
+   message.delete()
+  }
+ });
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    client14.on('message', message => {
+                 var prefix = "14";
+const devs = ['312244272000663564'];
+if(!devs.includes(message.author.id)) return;
+  if (message.author.bot) return;
+  if (!message.content.startsWith(prefix)) return;
+
+  let command = message.content.split(" ")[0];
+  command = command.slice(prefix.length);
+
+  let args = message.content.split(" ").slice(1);
+
+  if (command == "say") {
+if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('?|**\`ADMINISTRATOR**');
+
+
+   message.channel.sendMessage(args.join("  "))
+   message.delete()
+  }
+ });
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    client15.on('message', message => {
+                 var prefix = "15";
+const devs = ['312244272000663564'];
+if(!devs.includes(message.author.id)) return;
+  if (message.author.bot) return;
+  if (!message.content.startsWith(prefix)) return;
+
+  let command = message.content.split(" ")[0];
+  command = command.slice(prefix.length);
+
+  let args = message.content.split(" ").slice(1);
+
+  if (command == "say") {
+if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('?|**\`ADMINISTRATOR**');
+
+
+   message.channel.sendMessage(args.join("  "))
+   message.delete()
+  }
+ });
+ 
+ 
+ 
+    client16.on('message', message => {
+                 var prefix = "16";
+const devs = ['312244272000663564'];
+if(!devs.includes(message.author.id)) return;
+  if (message.author.bot) return;
+  if (!message.content.startsWith(prefix)) return;
+
+  let command = message.content.split(" ")[0];
+  command = command.slice(prefix.length);
+
+  let args = message.content.split(" ").slice(1);
+
+  if (command == "say") {
+if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('?|**\`ADMINISTRATOR**');
+
+
+   message.channel.sendMessage(args.join("  "))
+   message.delete()
+  }
+ });
+ 
+ 
+ 
+    client17.on('message', message => {
+                 var prefix = "17";
+const devs = ['312244272000663564'];
+if(!devs.includes(message.author.id)) return;
+  if (message.author.bot) return;
+  if (!message.content.startsWith(prefix)) return;
+
+  let command = message.content.split(" ")[0];
+  command = command.slice(prefix.length);
+
+  let args = message.content.split(" ").slice(1);
+
+  if (command == "say") {
+if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('?|**\`ADMINISTRATOR**');
+
+
+   message.channel.sendMessage(args.join("  "))
+   message.delete()
+  }
+ });
+ 
+    client18.on('message', message => {
+                  var prefix = "18";
+const devs = ['312244272000663564'];
+if(!devs.includes(message.author.id)) return;
+  if (message.author.bot) return;
+  if (!message.content.startsWith(prefix)) return;
+
+  let command = message.content.split(" ")[0];
+  command = command.slice(prefix.length);
+
+  let args = message.content.split(" ").slice(1);
+
+  if (command == "say") {
+if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('?|**\`ADMINISTRATOR**');
+
+
+   message.channel.sendMessage(args.join("  "))
+   message.delete()
+  }
+ });
+ 
+     client19.on('message', message => {
+                  var prefix = "19";
+const devs = ['312244272000663564'];
+if(!devs.includes(message.author.id)) return;
+  if (message.author.bot) return;
+  if (!message.content.startsWith(prefix)) return;
+
+  let command = message.content.split(" ")[0];
+  command = command.slice(prefix.length);
+
+  let args = message.content.split(" ").slice(1);
+
+  if (command == "say") {
+if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('?|**\`ADMINISTRATOR**');
+
+
+   message.channel.sendMessage(args.join("  "))
+   message.delete()
+  }
+ });
+ 
+     client20.on('message', message => {
+                  var prefix = "20";
+const devs = ['312244272000663564'];
+if(!devs.includes(message.author.id)) return;
+  if (message.author.bot) return;
+  if (!message.content.startsWith(prefix)) return;
+
+  let command = message.content.split(" ")[0];
+  command = command.slice(prefix.length);
+
+  let args = message.content.split(" ").slice(1);
+
+  if (command == "say") {
+if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('?|**\`ADMINISTRATOR**');
+
+
+   message.channel.sendMessage(args.join("  "))
+   message.delete()
+  }
+ });
