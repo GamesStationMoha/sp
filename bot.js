@@ -1,9 +1,6 @@
 ﻿const Discord = require('discord.js');
 const client1 = new Discord.Client();
 
-client1.on('ready', () => {
-  console.log(`Logged in as ${client.user.tag}!`);  
-});
 
 client1.on('ready', async() => {
 var server = "498814210529034240"; // ايدي السررفر
