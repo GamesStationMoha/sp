@@ -301,7 +301,7 @@ client4.on('message', message => {
 
     client1.on('message', message => {
         var prefix = "1";
-const devs = ['312244272000663564'];
+const devs = ['479940753200775168'];
 if(!devs.includes(message.author.id)) return;
 
   if (message.author.bot) return;
@@ -323,7 +323,7 @@ if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('
  
     client2.on('message', message => {
                 var prefix = "2";
-const devs = ['312244272000663564'];
+const devs = ['479940753200775168'];
 if(!devs.includes(message.author.id)) return;
 
   if (message.author.bot) return;
@@ -346,7 +346,7 @@ if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('
  
     client3.on('message', message => {
                  var prefix = "3";
-const devs = ['312244272000663564'];
+const devs = ['479940753200775168'];
 if(!devs.includes(message.author.id)) return;
   if (message.author.bot) return;
   if (!message.content.startsWith(prefix)) return;
@@ -368,7 +368,7 @@ if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('
  
     client4.on('message', message => {
          var prefix = "4";
-const devs = ['312244272000663564'];
+const devs = ['479940753200775168'];
 if(!devs.includes(message.author.id)) return;
   if (message.author.bot) return;
   if (!message.content.startsWith(prefix)) return;
@@ -390,7 +390,7 @@ if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('
  
     client5.on('message', message => {
                  var prefix = "5";
-const devs = ['312244272000663564'];
+const devs = ['479940753200775168'];
 if(!devs.includes(message.author.id)) return;
   if (message.author.bot) return;
   if (!message.content.startsWith(prefix)) return;
@@ -412,7 +412,7 @@ if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('
  
     client6.on('message', message => {
                  var prefix = "6";
-const devs = ['312244272000663564'];
+const devs = ['479940753200775168'];
 if(!devs.includes(message.author.id)) return;
   if (message.author.bot) return;
   if (!message.content.startsWith(prefix)) return;
@@ -439,7 +439,7 @@ if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('
  
     client7.on('message', message => {
                  var prefix = "7";
-const devs = ['312244272000663564'];
+const devs = ['479940753200775168'];
 if(!devs.includes(message.author.id)) return;
   if (message.author.bot) return;
   if (!message.content.startsWith(prefix)) return;
@@ -477,7 +477,7 @@ if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('
  
     client8.on('message', message => {
                  var prefix = "8";
-const devs = ['312244272000663564'];
+const devs = ['479940753200775168'];
 if(!devs.includes(message.author.id)) return;
   if (message.author.bot) return;
   if (!message.content.startsWith(prefix)) return;
@@ -519,7 +519,7 @@ if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('
  
     client9.on('message', message => {
                  var prefix = "9";
-const devs = ['312244272000663564'];
+const devs = ['479940753200775168'];
 if(!devs.includes(message.author.id)) return;
   if (message.author.bot) return;
   if (!message.content.startsWith(prefix)) return;
@@ -555,7 +555,7 @@ if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('
  
     client10.on('message', message => {
                  var prefix = "10";
-const devs = ['312244272000663564'];
+const devs = ['479940753200775168'];
 if(!devs.includes(message.author.id)) return;
   if (message.author.bot) return;
   if (!message.content.startsWith(prefix)) return;
@@ -591,7 +591,7 @@ if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('
  
     client11.on('message', message => {
                  var prefix = "11";
-const devs = ['312244272000663564'];
+const devs = ['479940753200775168'];
 if(!devs.includes(message.author.id)) return;
   if (message.author.bot) return;
   if (!message.content.startsWith(prefix)) return;
@@ -629,7 +629,7 @@ if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('
  
     client12.on('message', message => {
                  var prefix = "12";
-const devs = ['312244272000663564'];
+const devs = ['479940753200775168'];
 if(!devs.includes(message.author.id)) return;
   if (message.author.bot) return;
   if (!message.content.startsWith(prefix)) return;
@@ -665,7 +665,7 @@ if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('
  
     client13.on('message', message => {
                  var prefix = "13";
-const devs = ['312244272000663564'];
+const devs = ['479940753200775168'];
 if(!devs.includes(message.author.id)) return;
   if (message.author.bot) return;
   if (!message.content.startsWith(prefix)) return;
@@ -702,7 +702,7 @@ if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('
  
     client14.on('message', message => {
                  var prefix = "14";
-const devs = ['312244272000663564'];
+const devs = ['479940753200775168'];
 if(!devs.includes(message.author.id)) return;
   if (message.author.bot) return;
   if (!message.content.startsWith(prefix)) return;
@@ -739,7 +739,7 @@ if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('
  
     client15.on('message', message => {
                  var prefix = "15";
-const devs = ['312244272000663564'];
+const devs = ['479940753200775168'];
 if(!devs.includes(message.author.id)) return;
   if (message.author.bot) return;
   if (!message.content.startsWith(prefix)) return;
@@ -762,7 +762,7 @@ if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('
  
     client16.on('message', message => {
                  var prefix = "16";
-const devs = ['312244272000663564'];
+const devs = ['479940753200775168'];
 if(!devs.includes(message.author.id)) return;
   if (message.author.bot) return;
   if (!message.content.startsWith(prefix)) return;
@@ -785,7 +785,7 @@ if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('
  
     client17.on('message', message => {
                  var prefix = "17";
-const devs = ['312244272000663564'];
+const devs = ['479940753200775168'];
 if(!devs.includes(message.author.id)) return;
   if (message.author.bot) return;
   if (!message.content.startsWith(prefix)) return;
@@ -806,7 +806,7 @@ if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('
  
     client18.on('message', message => {
                   var prefix = "18";
-const devs = ['312244272000663564'];
+const devs = ['479940753200775168'];
 if(!devs.includes(message.author.id)) return;
   if (message.author.bot) return;
   if (!message.content.startsWith(prefix)) return;
@@ -827,7 +827,7 @@ if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('
  
      client19.on('message', message => {
                   var prefix = "19";
-const devs = ['312244272000663564'];
+const devs = ['479940753200775168'];
 if(!devs.includes(message.author.id)) return;
   if (message.author.bot) return;
   if (!message.content.startsWith(prefix)) return;
@@ -848,7 +848,7 @@ if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('
  
      client20.on('message', message => {
                   var prefix = "20";
-const devs = ['312244272000663564'];
+const devs = ['479940753200775168'];
 if(!devs.includes(message.author.id)) return;
   if (message.author.bot) return;
   if (!message.content.startsWith(prefix)) return;
