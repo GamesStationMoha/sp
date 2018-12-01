@@ -187,11 +187,6 @@ client20.login(process.env.TOKEN20);
 
 //credits V
 
-client.on('message', message => {
-  if (message.content === 'cr') {
-    message.channel.send('#credits');
-  }
-}); 
 
 client1.on('message', message => {
   if (message.content === 'cr') {
