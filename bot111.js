@@ -1,34 +1,59 @@
-﻿const Discord = require('discord.js');
-const client = new Discord.Client();
-var prefix = "1";
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);  
 });
 
-client.on('ready', async() => {
-var server = "511237640092123150"; // ايدي السررفر
-var channel = "511238296840568842";//ايدي الروم
-    setInterval(()=>{
-    client.guilds.get(server).channels.get(channel).send('**Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , **')
-    },305);
-})
 
-client.on('message', message => {
-  if (message.author.bot) return;
-  if (!message.content.startsWith(prefix)) return;
+const Discord = require('discord.js');
 
-  let command = message.content.split(" ")[0];
-  command = command.slice(prefix.length);
+const clien20t = new Discord.Client();
 
-  let args = message.content.split(" ").slice(1);
+console.log("BOT ONLINE");
+ 
 
-  if (command == "say") {
-if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('?|**\`ADMINISTRATOR\`ليس لديك صلاحيات`**');
-   message.channel.sendMessage(args.join("  "))
-   message.delete()
-  }
- });
+client20.on("guildMemberAdd", member => {
+  let guild = member.guild;
+  client.channels.get("516270083446669367").sendMessage("**Welcome To ``GamesStation™ ``.. :rose: :GS: 
+   We Hope Enjoy Your Over Time :champagne_glass: :heart: ...
+
+``مرحبا بك في سيرفر ``محطة الالعاب .. :rose: :GS: 
+   نتمنا لك قضاء أسعد الأوقات :champagne_glass: :heart: ...**")
+  });
+client20.login(process.env.TOKEN20);
 
  
-client.login(process.env.BOT_TOKEN);
+const client19 = new Discord.Client();
+
+console.log("BOT ONLINE");
+ 
+
+client19.on("guildMemberAdd", member => {
+  let guild = member.guild;
+  client.channels.get("516270083446669367").sendMessage("**Welcome To GamesStation™ .. :sunflower: :GS: **")
+  });
+client19.login(process.env.TOKEN19);
+
+ const client18 = new Discord.Client();
+
+console.log("BOT ONLINE");
+ 
+
+client18.on("guildMemberAdd", member => {
+  let guild = member.guild;
+  client.channels.get("516270083446669367").sendMessage("**Welcome To GamesStation™ .. :sunflower: :GS: **")
+  });
+client18.login(process.env.TOKEN18);
+  
+   const client17 = new Discord.Client();
+
+console.log("BOT ONLINE");
+ 
+
+client17.on("guildMemberAdd", member => {
+  let guild = member.guild;
+  client.channels.get("516270083446669367").sendMessage("**Welcome To GamesStation™ .. :dove: :sparkles: **")
+  });
+client17.login(process.env.TOKEN17);
+
+
+ 
