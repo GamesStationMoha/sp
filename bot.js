@@ -866,3 +866,180 @@ if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('
    message.delete()
   }
  });
+
+//#Voice
+client4.on('message', function(message) {
+	const member = message.member;
+	const mess = message.content.toLowerCase();
+	const args = message.content.split(' ').slice(1).join(' ');
+	const devs = ['312244272000663564'];
+
+	 if (mess.startsWith('....تعال')) {
+		message.member.voiceChannel.join().then(message.channel.send('طيب'));
+	}
+		else if (mess.startsWith('Quitt1')) {
+		    
+		if (!message.member.voiceChannel) return message.channel.send(':no_entry: || **__يجب ان تكون في روم صوتي__**');
+		if (message.guild.voiceConnection) message.guild.voiceConnection.disconnect();
+	}
+});
+
+client2.on('message', function(message) {
+	const member = message.member;
+	const mess = message.content.toLowerCase();
+	const args = message.content.split(' ').slice(1).join(' ');
+	const devs = ['312244272000663564'];
+
+	 if (mess.startsWith('....تعال')) {
+		message.member.voiceChannel.join().then(message.channel.send('طيب'));
+	}
+		else if (mess.startsWith('Quitt1')) {
+		    
+		if (!message.member.voiceChannel) return message.channel.send(':no_entry: || **__يجب ان تكون في روم صوتي__**');
+		if (message.guild.voiceConnection) message.guild.voiceConnection.disconnect();
+	}
+});
+
+client19.on('message', function(message) {
+	const member = message.member;
+	const mess = message.content.toLowerCase();
+	const args = message.content.split(' ').slice(1).join(' ');
+	const devs = ['312244272000663564'];
+
+	 if (mess.startsWith('....تعال')) {
+		message.member.voiceChannel.join().then(message.channel.send('طيب'));
+	}
+		else if (mess.startsWith('Quitt1')) {
+		    
+		if (!message.member.voiceChannel) return message.channel.send(':no_entry: || **__يجب ان تكون في روم صوتي__**');
+		if (message.guild.voiceConnection) message.guild.voiceConnection.disconnect();
+	}
+});
+
+client20.on('message', function(message) {
+	const member = message.member;
+	const mess = message.content.toLowerCase();
+	const args = message.content.split(' ').slice(1).join(' ');
+	const devs = ['312244272000663564'];
+
+	 if (mess.startsWith('....تعال')) {
+		message.member.voiceChannel.join().then(message.channel.send('طيب'));
+	}
+		else if (mess.startsWith('Quitt1')) {
+		    
+		if (!message.member.voiceChannel) return message.channel.send(':no_entry: || **__يجب ان تكون في روم صوتي__**');
+		if (message.guild.voiceConnection) message.guild.voiceConnection.disconnect();
+	}
+});
+
+client21.on('message', function(message) {
+	const member = message.member;
+	const mess = message.content.toLowerCase();
+	const args = message.content.split(' ').slice(1).join(' ');
+	const devs = ['312244272000663564'];
+
+	 if (mess.startsWith('....تعال')) {
+		message.member.voiceChannel.join().then(message.channel.send('طيب'));
+	}
+		else if (mess.startsWith('Quitt1')) {
+		    
+		if (!message.member.voiceChannel) return message.channel.send(':no_entry: || **__يجب ان تكون في روم صوتي__**');
+		if (message.guild.voiceConnection) message.guild.voiceConnection.disconnect();
+	}
+});
+
+client22.on('message', function(message) {
+	const member = message.member;
+	const mess = message.content.toLowerCase();
+	const args = message.content.split(' ').slice(1).join(' ');
+	const devs = ['312244272000663564'];
+
+	 if (mess.startsWith('....تعال')) {
+		message.member.voiceChannel.join().then(message.channel.send('طيب'));
+	}
+		else if (mess.startsWith('Quitt1')) {
+		    
+		if (!message.member.voiceChannel) return message.channel.send(':no_entry: || **__يجب ان تكون في روم صوتي__**');
+		if (message.guild.voiceConnection) message.guild.voiceConnection.disconnect();
+	}
+});
+
+client23.on('message', function(message) {
+	const member = message.member;
+	const mess = message.content.toLowerCase();
+	const args = message.content.split(' ').slice(1).join(' ');
+	const devs = ['312244272000663564'];
+
+	 if (mess.startsWith('....تعال')) {
+		message.member.voiceChannel.join().then(message.channel.send('طيب'));
+	}
+		else if (mess.startsWith('Quitt1')) {
+		    
+		if (!message.member.voiceChannel) return message.channel.send(':no_entry: || **__يجب ان تكون في روم صوتي__**');
+		if (message.guild.voiceConnection) message.guild.voiceConnection.disconnect();
+	}
+});
+
+client24.on('message', function(message) {
+	const member = message.member;
+	const mess = message.content.toLowerCase();
+	const args = message.content.split(' ').slice(1).join(' ');
+	const devs = ['312244272000663564'];
+
+	 if (mess.startsWith('....تعال')) {
+		message.member.voiceChannel.join().then(message.channel.send('طيب'));
+	}
+		else if (mess.startsWith('Quitt1')) {
+		    
+		if (!message.member.voiceChannel) return message.channel.send(':no_entry: || **__يجب ان تكون في روم صوتي__**');
+		if (message.guild.voiceConnection) message.guild.voiceConnection.disconnect();
+	}
+});
+
+client25.on('message', function(message) {
+	const member = message.member;
+	const mess = message.content.toLowerCase();
+	const args = message.content.split(' ').slice(1).join(' ');
+	const devs = ['312244272000663564'];
+
+	 if (mess.startsWith('....تعال')) {
+		message.member.voiceChannel.join().then(message.channel.send('طيب'));
+	}
+		else if (mess.startsWith('Quitt1')) {
+		    
+		if (!message.member.voiceChannel) return message.channel.send(':no_entry: || **__يجب ان تكون في روم صوتي__**');
+		if (message.guild.voiceConnection) message.guild.voiceConnection.disconnect();
+	}
+});
+
+client26.on('message', function(message) {
+	const member = message.member;
+	const mess = message.content.toLowerCase();
+	const args = message.content.split(' ').slice(1).join(' ');
+	const devs = ['312244272000663564'];
+
+	 if (mess.startsWith('....تعال')) {
+		message.member.voiceChannel.join().then(message.channel.send('طيب'));
+	}
+		else if (mess.startsWith('Quitt1')) {
+		    
+		if (!message.member.voiceChannel) return message.channel.send(':no_entry: || **__يجب ان تكون في روم صوتي__**');
+		if (message.guild.voiceConnection) message.guild.voiceConnection.disconnect();
+	}
+});
+
+client27.on('message', function(message) {
+	const member = message.member;
+	const mess = message.content.toLowerCase();
+	const args = message.content.split(' ').slice(1).join(' ');
+	const devs = ['312244272000663564'];
+
+	 if (mess.startsWith('....تعال')) {
+		message.member.voiceChannel.join().then(message.channel.send('طيب'));
+	}
+		else if (mess.startsWith('Quitt1')) {
+		    
+		if (!message.member.voiceChannel) return message.channel.send(':no_entry: || **__يجب ان تكون في روم صوتي__**');
+		if (message.guild.voiceConnection) message.guild.voiceConnection.disconnect();
+	}
+});
