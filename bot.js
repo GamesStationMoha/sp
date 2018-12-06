@@ -1082,6 +1082,7 @@ if (message.content.startsWith(adminprefix + 'setavatar')) {
     message.channel.send(`Changing The Avatar To :**${argresult}** `);
 }
 });
+CUS1.login(process.env.CUS1);
 
 
 
